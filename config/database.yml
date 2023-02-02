@@ -81,6 +81,7 @@ test:
 #
 production:
   <<: *default
-  database: plarail_course_simulator_production
-  username: plarail_course_simulator
+  database: cldn2ruvp00279uo4htytedws
+  username: cldn2ruvo00259uo461riescg
   password: <%= ENV["PLARAIL_COURSE_SIMULATOR_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>
