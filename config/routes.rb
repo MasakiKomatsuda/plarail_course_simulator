@@ -1,6 +1,4 @@
 Rails.application.routes.draw do
-  get 'users/new'
-  get 'users/create'
   root "tops#top"
 
   get 'login', to: 'user_sessions#new'
