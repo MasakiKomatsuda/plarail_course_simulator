@@ -1,5 +1,6 @@
 ja:
   defaults:
+    plarail_course_simulator: 'プラレールコースシミュレーター'
     login: 'ログイン'
     register: '新規登録'
     logout: 'ログアウト'
@@ -17,3 +18,5 @@ ja:
   user_sessions:
     new:
       title: 'ログイン'
+      email: 'メールアドレス'
+      password: 'パスワード'
