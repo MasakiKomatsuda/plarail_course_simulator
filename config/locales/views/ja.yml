@@ -15,8 +15,16 @@ ja:
     new:
       title: '新規登録'
       register: '登録'
+    create:
+      success: 'ユーザー登録が完了しました'
+      fail: 'ユーザー登録に失敗しました'
   user_sessions:
     new:
       title: 'ログイン'
       email: 'メールアドレス'
       password: 'パスワード'
+    create:
+      success: 'ログインしました'
+      fail: 'ログインに失敗しました'
+    destroy:
+      success: 'ログアウトしました'
