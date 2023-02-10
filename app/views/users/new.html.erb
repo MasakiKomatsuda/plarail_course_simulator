@@ -4,6 +4,7 @@
       <h2 class="text-gray-800 text-2xl lg:text-3xl font-bold text-center mb-4 md:mb-6">新規登録</h2>
     </div>
     <%= form_with model: @user, class: "max-w-screen-md grid sm:grid-cols-2 gap-4 mx-auto", local: true do |f| %>
+      <%= render 'shared/error_messages', object: f.object %>
       <div class="sm:col-span-2">
         <%= f.label :name, class: "inline-block text-gray-800 text-sm sm:text-base mb-2" %>
         <%= f.text_field :name, class: "w-full bg-gray-50 text-gray-800 border focus:ring ring-indigo-300 rounded outline-none transition duration-100 px-3 py-2" %>
