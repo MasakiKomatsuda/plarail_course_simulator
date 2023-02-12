@@ -1,13 +1,29 @@
-<div class="bg-white lg:pb-12">
-  <div class="max-w-screen-2xl px-4 md:px-8 mx-auto">
-    <header class="flex justify-between items-center py-4 md:py-8">
-      <%= link_to t('defaults.plarail_course_simulator'), root_path, class: "inline-flex items-center text-black-800 text-2xl md:text-3xl font-bold gap-2.5" %>
-      <div class="hidden lg:flex flex-col sm:flex-row sm:justify-center lg:justify-start gap-2.5 -ml-8">
-        <%= link_to t('defaults.mypage'), "#", class: "inline-block focus-visible:ring ring-indigo-300 text-gray-500 hover:text-indigo-500 active:text-indigo-600 text-sm md:text-base font-semibold text-center rounded-lg outline-none transition duration-100 px-4 py-3" %>
-        <%= link_to t('defaults.simulation'), "#", class: "inline-block focus-visible:ring ring-indigo-300 text-gray-500 hover:text-indigo-500 active:text-indigo-600 text-sm md:text-base font-semibold text-center rounded-lg outline-none transition duration-100 px-4 py-3" %>
-        <%= link_to t('defaults.new_post'), "#", class: "inline-block focus-visible:ring ring-indigo-300 text-gray-500 hover:text-indigo-500 active:text-indigo-600 text-sm md:text-base font-semibold text-center rounded-lg outline-none transition duration-100 px-4 py-3" %>
-        <%= link_to t('defaults.post_index'), "#", class: "inline-block focus-visible:ring ring-indigo-300 text-gray-500 hover:text-indigo-500 active:text-indigo-600 text-sm md:text-base font-semibold text-center rounded-lg outline-none transition duration-100 px-4 py-3" %>
-        <%= link_to t('defaults.logout'), logout_path, data: { turbo_method: :delete }, class: "inline-block focus-visible:ring ring-indigo-300 text-gray-500 hover:text-indigo-500 active:text-indigo-600 text-sm md:text-base font-semibold text-center rounded-lg outline-none transition duration-100 px-4 py-3" %>
+<div class="navbar bg-base-100">
+  <div class="flex-1">
+    <%= link_to t('defaults.plarail_course_simulator'), root_path, class: "btn btn-ghost normal-case text-xl" %>
+  </div>
+  <div class="flex-none">
+    <ul class="menu menu-horizontal px-1">
+      <li><a><%= current_user.name %></a></li>
+      <li>
+        <div class="avatar">
+          <div class="w-6 rounded-full">
+            <img src="#">
+          </div>
+        </div>
+      </li>
+      <div class="dropdown dropdown-end">
+        <button class="btn btn-square btn-ghost">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-5 h-5 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+        </button>
+          <ul tabindex="0" class="menu dropdown-content p-2 shadow bg-base-100 rounded-box w-52 mt-4">
+            <li><%= link_to t('defaults.mypage'), "#" %></li>
+            <li><%= link_to t('defaults.simulation'), "#" %></li>
+            <li><%= link_to t('defaults.new_post'), "#" %></li>
+            <li><%= link_to t('defaults.post_index'), "#" %></li>
+            <li><%= link_to t('defaults.logout'), logout_path, data: { turbo_method: :delete } %></li>
+          </ul>
       </div>
+    </ul>
   </div>
 </div>
