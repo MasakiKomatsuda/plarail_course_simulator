@@ -28,3 +28,7 @@ ja:
       fail: 'ログインに失敗しました'
     destroy:
       success: 'ログアウトしました'
+  courses:
+    index:
+      title: 'コース一覧'
+      no_result: 'コースがありません'
