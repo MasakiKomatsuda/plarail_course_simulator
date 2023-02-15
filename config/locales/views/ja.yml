@@ -11,7 +11,8 @@ ja:
     terms_of_use: '利用規約'
     privacy_policy: 'プライバシーポリシー'
     contact: 'お問い合わせ'
-    require_login: 'ログインが必要です'
+    message:
+      require_login: 'ログインが必要です'
   users:
     new:
       title: '新規登録'
@@ -32,4 +33,4 @@ ja:
   courses:
     index:
       title: 'コース一覧'
-      no_result: '登録されているコースはありません'
+      no_result: 'コースがありません'
