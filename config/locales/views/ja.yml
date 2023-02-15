@@ -13,6 +13,8 @@ ja:
     contact: 'お問い合わせ'
     message:
       require_login: 'ログインが必要です'
+      created: "コースを作成しました"
+      not_created: "コースを作成できませんでした"
   users:
     new:
       title: 'ユーザー登録'
