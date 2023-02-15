@@ -1,0 +1,14 @@
+<div>
+  <div class="mb-10 md:mb-16">
+    <h2 class="lg:text-3xl font-bold text-center mb-4 md:mb-6"><%= (t '.title') %></h2>
+  </div>
+  <% if @courses.present? %>
+    <div class="card w-96 bg-base-100 shadow-xl">
+      <%= render @courses %>
+    </div>
+  <% else %>
+    <div class="mb-10 md:mb-16">
+      <h2 class="lg:text-3xl font-bold text-center mb-4 md:mb-6"><%= t('.no_result') %></h2>
+    </div>
+  <% end %>
+</div>

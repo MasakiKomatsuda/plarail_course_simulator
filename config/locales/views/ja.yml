@@ -2,22 +2,24 @@ ja:
   defaults:
     plarail_course_simulator: 'プラレールコースシミュレーター'
     login: 'ログイン'
-    register: '新規登録'
+    register: 'ユーザー登録'
     logout: 'ログアウト'
     mypage: 'マイページ'
     simulation: 'シミュレーション'
-    new_post: '新規投稿'
-    post_index: '投稿一覧'
+    new_post: 'コース登録'
+    post_index: 'コース一覧'
     terms_of_use: '利用規約'
     privacy_policy: 'プライバシーポリシー'
     contact: 'お問い合わせ'
+    message:
+      require_login: 'ログインが必要です'
   users:
     new:
-      title: '新規登録'
+      title: 'ユーザー登録'
       register: '登録'
     create:
-      success: 'ユーザー登録が完了しました'
-      fail: 'ユーザー登録に失敗しました'
+      success: 'ユーザーを登録しました'
+      fail: 'ユーザー登録できませんでした'
   user_sessions:
     new:
       title: 'ログイン'
@@ -25,6 +27,10 @@ ja:
       password: 'パスワード'
     create:
       success: 'ログインしました'
-      fail: 'ログインに失敗しました'
+      fail: 'ログインできませんでした'
     destroy:
       success: 'ログアウトしました'
+  courses:
+    index:
+      title: 'コース一覧'
+      no_result: 'コースがありません'
