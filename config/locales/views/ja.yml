@@ -36,3 +36,6 @@ ja:
     index:
       title: 'コース一覧'
       no_result: 'コースがありません'
+    new:
+      title: 'コース作成'
+      register: '作成'

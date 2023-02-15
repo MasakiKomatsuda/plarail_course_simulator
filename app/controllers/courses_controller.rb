@@ -14,7 +14,7 @@ class CoursesController < ApplicationController
       redirect_to courses_path, success: t('defaults.message.created')
     else
       flash.now['danger'] = t('defaults.message.not_created')
-      render :new
+      render :new, status: :unprocessable_entity
     end
   end
 
