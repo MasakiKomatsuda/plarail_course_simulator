@@ -19,7 +19,7 @@
           <ul tabindex="0" class="menu dropdown-content p-2 shadow bg-base-100 rounded-box w-52 mt-4">
             <li><%= link_to t('defaults.mypage'), "#" %></li>
             <li><%= link_to t('defaults.simulation'), "#" %></li>
-            <li><%= link_to t('defaults.new_post'), "#" %></li>
+            <li><%= link_to t('defaults.new_post'), new_course_path %></li>
             <li><%= link_to t('defaults.post_index'), courses_path %></li>
             <li><%= link_to t('defaults.logout'), logout_path, data: { turbo_method: :delete } %></li>
           </ul>

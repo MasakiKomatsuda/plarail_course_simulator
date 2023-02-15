@@ -6,13 +6,15 @@ ja:
     logout: 'ログアウト'
     mypage: 'マイページ'
     simulation: 'シミュレーション'
-    new_post: 'コース登録'
+    new_post: 'コース作成'
     post_index: 'コース一覧'
     terms_of_use: '利用規約'
     privacy_policy: 'プライバシーポリシー'
     contact: 'お問い合わせ'
     message:
       require_login: 'ログインが必要です'
+      created: "コースを作成しました"
+      not_created: "コースを作成できませんでした"
   users:
     new:
       title: 'ユーザー登録'
@@ -34,3 +36,6 @@ ja:
     index:
       title: 'コース一覧'
       no_result: 'コースがありません'
+    new:
+      title: 'コース作成'
+      register: '作成'
