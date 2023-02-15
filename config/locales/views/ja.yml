@@ -11,13 +11,14 @@ ja:
     terms_of_use: '利用規約'
     privacy_policy: 'プライバシーポリシー'
     contact: 'お問い合わせ'
+    require_login: 'ログインが必要です'
   users:
     new:
       title: '新規登録'
       register: '登録'
     create:
-      success: 'ユーザー登録が完了しました'
-      fail: 'ユーザー登録に失敗しました'
+      success: 'ユーザーを登録しました'
+      fail: 'ユーザー登録できませんでした'
   user_sessions:
     new:
       title: 'ログイン'
@@ -25,10 +26,10 @@ ja:
       password: 'パスワード'
     create:
       success: 'ログインしました'
-      fail: 'ログインに失敗しました'
+      fail: 'ログインできませんでした'
     destroy:
       success: 'ログアウトしました'
   courses:
     index:
       title: 'コース一覧'
-      no_result: 'コースがありません'
+      no_result: '登録されているコースはありません'
