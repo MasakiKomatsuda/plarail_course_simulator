@@ -3,6 +3,7 @@ ja:
   activerecord:
     models:
       user: 'ユーザー'
+      course: 'コース'
     attributes:
       user:
         name: 'ユーザーネーム'
@@ -13,3 +14,4 @@ ja:
       course:
         title: 'コースタイトル'
         description: 'コース概要'
+        image: 'コース画像'
