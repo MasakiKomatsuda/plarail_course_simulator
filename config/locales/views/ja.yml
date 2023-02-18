@@ -41,3 +41,5 @@ ja:
       register: '作成'
     show:
       title: 'コース詳細'
+      author: '作成者'
+      description: 'コース概要'

@@ -10,11 +10,11 @@
       <%= image_tag @course.image_url %>
     </div>
     <div class="mb-10 md:mb-16">
-      <h2 class="lg:text-3xl font-bold mb-4 md:mb-6">作成者</h2>
+      <h2 class="lg:text-3xl font-bold mb-4 md:mb-6"><%= t('.author') %></h2>
       <%= @course.user.name %>
     </div>
     <div class="mb-10 md:mb-16">
-      <h2 class="lg:text-3xl font-bold mb-4 md:mb-6">コース説明</h2>
+      <h2 class="lg:text-3xl font-bold mb-4 md:mb-6"><%= t('.description') %></h2>
       <%= @course.description %>
     </div>
   </div>
