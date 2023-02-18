@@ -39,3 +39,5 @@ ja:
     new:
       title: 'コース作成'
       register: '作成'
+    show:
+      title: 'コース詳細'
