@@ -1,10 +1,10 @@
 <div class="card w-96 bg-base-100 shadow-xl">
   <figure>
-    <%= image_tag course.image_url, class: 'card-img-top', size: '300x200' %>
+    <%= link_to image_tag(course.image_url), course_path(course), class: 'card-img-top', size: '300x200' %>
   </figure>
   <div class="card-body">
     <h2 class="card-title">
-      <%= course.title %>
+      <%= link_to course.title, course_path(course) %>
     </h2>
     <%= course.user.name %>
   </div>
