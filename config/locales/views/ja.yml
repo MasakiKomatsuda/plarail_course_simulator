@@ -4,6 +4,7 @@ ja:
     login: 'ログイン'
     register: 'ユーザー登録'
     logout: 'ログアウト'
+    post: '投稿'
     mypage: 'マイページ'
     simulation: 'シミュレーション'
     new_post: 'コース作成'
@@ -38,8 +39,9 @@ ja:
       no_result: 'コースがありません'
     new:
       title: 'コース作成'
-      register: '作成'
     show:
       title: 'コース詳細'
       author: '作成者'
       description: 'コース概要'
+    edit:
+      title: 'コース編集'
