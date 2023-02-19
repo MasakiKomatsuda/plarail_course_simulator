@@ -14,8 +14,12 @@ ja:
     contact: 'お問い合わせ'
     message:
       require_login: 'ログインが必要です'
-      created: "コースを作成しました"
-      not_created: "コースを作成できませんでした"
+      created: 'コースを作成しました'
+      not_created: 'コースを作成できませんでした'
+      updated: 'コースを更新しました'
+      not_updated: 'コースを更新できませんでした'
+      deleted: 'コースを削除しました'
+      delete_confirm: 'コースを削除しますか？'
   users:
     new:
       title: 'ユーザー登録'

@@ -30,7 +30,7 @@ class CoursesController < ApplicationController
       redirect_to @course, success: t('defaults.message.updated')
     else
       flash.now['danger'] = t('defaults.message.not_updated')
-      render :edit
+      render :edit, status: :unprocessable_entity
     end
   end
 
