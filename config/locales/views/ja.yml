@@ -4,6 +4,7 @@ ja:
     login: 'ログイン'
     register: 'ユーザー登録'
     logout: 'ログアウト'
+    post: '投稿'
     mypage: 'マイページ'
     simulation: 'シミュレーション'
     new_post: 'コース作成'
@@ -13,8 +14,12 @@ ja:
     contact: 'お問い合わせ'
     message:
       require_login: 'ログインが必要です'
-      created: "コースを作成しました"
-      not_created: "コースを作成できませんでした"
+      created: 'コースを作成しました'
+      not_created: 'コースを作成できませんでした'
+      updated: 'コースを更新しました'
+      not_updated: 'コースを更新できませんでした'
+      deleted: 'コースを削除しました'
+      delete_confirm: 'コースを削除しますか？'
   users:
     new:
       title: 'ユーザー登録'
@@ -38,6 +43,9 @@ ja:
       no_result: 'コースがありません'
     new:
       title: 'コース作成'
-      register: '作成'
     show:
       title: 'コース詳細'
+      author: '作成者'
+      description: 'コース概要'
+    edit:
+      title: 'コース編集'
