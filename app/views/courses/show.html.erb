@@ -17,5 +17,6 @@
       <h2 class="lg:text-3xl font-bold mb-4 md:mb-6"><%= t('.description') %></h2>
       <%= @course.description %>
     </div>
+    <%= render 'crud_menus', course: @course if current_user.own?(@course) %>
   </div>
 </div>

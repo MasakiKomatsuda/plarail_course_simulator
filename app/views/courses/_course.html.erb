@@ -7,5 +7,6 @@
       <%= link_to course.title, course_path(course) %>
     </h2>
     <%= course.user.name %>
+    <%= render 'crud_menus', course: course if current_user.own?(course) %>
   </div>
 </div>

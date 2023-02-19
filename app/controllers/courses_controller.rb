@@ -1,4 +1,6 @@
 class CoursesController < ApplicationController
+  before_action :set_course, only: [:edit, :update, :destroy]
+
   def index
     @courses = Course.all.includes(:user).order(created_at: :desc)
   end

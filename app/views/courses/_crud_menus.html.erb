@@ -1,0 +1,8 @@
+<ul class='flex float-left'>
+  <li class="list-inline-item">
+    <%= link_to '編集', edit_course_path(course), class: "btn btn-primary" %>
+  </li>
+  <li class="list-inline-item ml-4">
+    <%= link_to '削除', course_path(course), class: "btn btn-secondary", data: { turbo_method: :delete, turbo_confirm: "コースを削除しますか？" } %>
+  </li>
+</ul>
